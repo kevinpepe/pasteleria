@@ -1,0 +1,71 @@
+*{
+    margin: 0  ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: repeating-radial-gradient(rgb(0, 255, 229),  rgb(129, 255, 120)); }
+ form{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(241, 5, 17, 0.7);
+    border-radius: 15px 15px 15px;
+}
+form .title{
+    color: rgb(24, 1, 36);
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+form label{
+    margin-bottom: 35px;
+}
+form label .fa-solid{
+font-size: 20px;
+color: red;
+margin-right: 10px;
+}
+form  label input{
+    outline: none;
+    border: none;
+    color: black;
+    border-bottom: solid 1px red;
+    padding: 0 5px;
+    font-size: 18px;
+}
+form label input  ::placeholder{
+    color: rgb(255, 255, 255);
+}
+form .link{
+    color: rgb(255, 0, 0);
+    margin-bottom: 15px;
+}
+form button{
+    color: white;
+    border: none;
+    background-color: rgb(80, 130, 216);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 15px 15px 15px;
+}
+form button:hover{
+        background: linear-gradient(to right, rgb(79, 204, 133),rgb(122, 27, 173)  )
+}
+button a{
+    color: rgb(255, 254, 255);
+    text-decoration: none;
+        
+}
+button a:hover{
+   color: rgb(0, 255, 238);
+}
